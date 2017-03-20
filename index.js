@@ -124,13 +124,13 @@ function Square(length) {
 Square.prototype = Object.create(Rectangle.prototype)
 Square.prototype.constructor = Square
 
-Square.prototype.numberOfSides = function() {
-  return 4
-}
-Square.prototype.area = function() {
-  return this.height * this.height
-}
-
-Square.prototype.perimeter = function() {
-  return this.height * 4
-}
+// Square.prototype.numberOfSides = function() {
+//   return 4
+// }
+// Square.prototype.area = function() {
+//   return this.height * this.height
+// }
+//
+// Square.prototype.perimeter = function() {
+//   return this.height * 4
+// }
